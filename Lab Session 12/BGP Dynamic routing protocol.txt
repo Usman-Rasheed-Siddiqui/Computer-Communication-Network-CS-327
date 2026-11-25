@@ -1,0 +1,32 @@
+BGP - Dynamic routing protocol (Border Gateway Routing Protocol)
+Difference:
+- Dynamic routing protocol into broader classification
+-IGP: Interior Gateway Protocol
+-EGP: Exterior ''
+IGP: Within org chalanay wala. Baray scale par nhi supported. Like e.g. RIP can run in like 15 routers. OSPF can also can't handle too many. At 250 routers it shows problems
+
+BGP: Designed for core infrastructure where millions of routers are present. Works on internet.
+To run accross the internet across an org.
+
+Part of EGP (e.g. BGP and MPLS)
+
+Hardware extensive.
+BGP into 2 categories:
+IBGP: AD: 2008
+EBGP: AD: 20
+
+
+AS Number: Autonomous System Number. Given by distributor. It helps identify org even if has many routers it will have a single AS no.
+Why two Admin Distances?
+Across AS: EBGP
+Within AS:IBGP
+
+On pg 58: Selection criterias. Originally 13 but famous 8.
+Select best Selection criteria out of all 13.
+This can show how much customization we can do in our system.
+BGP:
+- Gives control
+- Stable
+- Hardware Extensive
+
+
